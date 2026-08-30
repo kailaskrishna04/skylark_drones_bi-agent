@@ -1,5 +1,11 @@
 # Skylark Intelligence — Business Intelligence Agent
 
+## 🚀 Live Dashboard
+
+**[Open the live Skylark Intelligence agent](https://skylark-drones-bi-agent-sigma.vercel.app)**
+
+> No local setup is required. Open the link above to test the deployed agent.
+
 A read-only conversational BI agent for the Skylark Drones assignment. It answers founder-level questions using **live monday.com board data** rather than hardcoded CSV/XLSX data.
 
 ## Assignment scope
@@ -27,7 +33,7 @@ User
   ↓
 Browser UI (index.html)
   ↓  POST /api/query
-Node server (server.js)
+Vercel Serverless Function (api/query.js)
   ↓
 BI / intent logic (src/bi.js)
   ↓
